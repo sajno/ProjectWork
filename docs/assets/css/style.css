@@ -156,18 +156,20 @@ div {
   }
   
  
- /* The Close Button */ 
-
- .close { 
-   color: #aaaaaa; 
-   float: right; 
-   font-size: 28px; 
-   font-weight: bold; 
- } 
-
-.close:hover, 
- .close:focus { 
-  color: rgb(112, 30, 30); 
-   text-decoration: none; 
-   cursor: pointer; 
- }
+/* The Close Button */ 
+.close {
+ background-color: rgb(112, 30, 30, 0.5);
+ border: none;
+ color: white;
+ padding: 5px 10px;
+ text-align: center;
+ text-decoration: none;
+ display: inline;
+ font-size: 16px;
+ margin: 2px 2px;
+ cursor: pointer;
+ 
+}
+close:hover {
+ background-color: rgb(112, 30, 30);
+}
