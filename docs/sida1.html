@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,76 +9,122 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-    <header><h1>Top lists!</h1></header>
-    <h2>On this page you can look at my favorite books, and genres, and authors, and... :)</h2>
-    <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="sida2.html">Reviews</a></li>
-        </ul>
-      </nav>
-      <br>
 
-      <div class="toplist">
-        <h3>Favorite books of all time</h3>
-        <ul class="lists">
-            <li>Night circus</li>
-            <li>Harry Potter</li>
-            <li>Say Nothing</li>
-            <li>Prep</li>
-            <li>Rebecca</li>
-            <li>Give me the sun</li>
-            <li>Jellicoe Road</li>
-            <li>If we were villians</li>
-        </ul>
+<body onload="main();">
 
-        <img src="assets/img/documents/IMG_1711.JPG" alt="Prep" width="200px">
+    <header>
+        <h1>Pictures</h1>
+    </header>
+    <h2>These are the digitized pages from the book. Click on an image to enlarge it, click the X for
+        initial scale.</h2>
+
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sida1.html">Pictures</a></li>
+        <li><a href="sida2.html">Text</a></li>
+        <li><a href="sida3.html">Metadata</a></li>
+    </ul>
+
+    <script>
+        var modal;
+       // var close;
+
+        function main() {
+
+        modal = document.getElementById("ruta");
+        //  close = document.getElementsByClassName("close")[0];
+
+            var bilder = [
+                { img: "assets/img_PW/1-hard cover_left side.jpg", alt: "Hard cover left side" },
+                { img: "assets/img_PW/2-hard cover_right side.jpg", alt: "Hard cover right side" },
+                { img: "assets/img_PW/3-signed copy.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/4-Södertälje library page.jpg", alt: "Södertälje library" },
+                { img: "assets/img_PW/5-Authur and title page.jpg", alt: "Author and title" },
+                { img: "assets/img_PW/6-Title and Signatur page.jpg", alt: "Title and signature" },
+                { img: "assets/img_PW/7-Authur photo and Signatur.jpg", alt: "Author photo and signature" },
+                { img: "assets/img_PW/8-Dedication Page.jpg", alt: "Dedication" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 303.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 304.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 305.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 316.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 317.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 318.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 319.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 320.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 321.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 322.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 323.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 335.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 338.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 339.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 349.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 350.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 351.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 352.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 353.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 354.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 355.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 356.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 357.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 358.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 359.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 360.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 361.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 362.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 363.jpg", alt: "Signed copy" },
+                { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 364.jpg", alt: "Signed copy" },
+
+            ]
+
+            bilder.forEach(visatumnagel);
+            function visatumnagel(value, index, array) {
+
+                var s =
+                    '<img src="' + value.img + '" ' +
+                    'alt="' + value.alt + '" ' +
+                    'width="200" ' +
+                    'style = "cursor:pointer" ' +
+                    'onclick = "rutan(\'' + value.img + '\');" ' +
+                    '> &nbsp;';
+                // console.log (s);
+                document.getElementById("tumnaglar").innerHTML += s;
+            }
+
+        }
+
+
+        function closeRutan() {
+            modal.style.display = "none";
+        }
+    
+
+        function rutan(img) {
+            modal.style.display = "block";
+          //  close.onclick = "closeRutan";
+            document.getElementById("storBild").innerHTML = '<img src="' + img + '" width="600px">';
+        }
+
+
+
+
+
+    </script>
+
+    <div id="tumnaglar">
+    </div>
+
+    <div id="ruta" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeRutan()">&times;</span>
+
+            <div id="storBild"></div>
         </div>
-
-    <div>
-        <h3>Favorites this year</h3>
-        <ul class="lists">
-            <li>Say Nothing</li>
-            <li>Rebecca</li>
-            <li>Foster, small things like these</li>
-            <li>The hauting of Hill House</li>
-            <li>If we were villians</li>
-            <li>Priory of the orange tree</li>
-
-        </ul>
-        <img src="assets/img/documents/IMG_2109.JPG" alt="classics" width="100px">
-        <img src="assets/img/documents/IMG_2131.JPEG" alt="Rebecca" width="100px">
-        <br>
-        <img src="assets/img/documents/IMG_3865.JPEG" alt="Jackson" width="100px">
-        <img src="assets/img/documents/IMG_5241.JPEG" alt="saynothing" width="100px">
     </div>
 
-    <div>
-        <h3>Short stories</h3>
-        <img src="assets/img/documents/IMG_3179.JPEG" alt="animalfarm" width="200px">
-        <br>
-        <img src="assets/img/documents/IMG_4180.JPEG" alt="fåglarna" width="200px">
-        <br>
-        <img src="assets/img/documents/IMG_4669.JPEG" alt="dickens" width="200px">
-
-    </div>
-
-<div>
-    <h3>Graphic novels</h3>
-    <img src="assets/img/documents/IMG_4187.JPEG" alt="malcolmmax" width="200px">
-    <br>
-    <img src="assets/img/documents/IMG_1372.JPEG" alt="pojken" width="200px">    
-</div>
-
-<div id="christmas">
-    <h3 id="christmastitle">Christmas books</h3>
-    <p id="xmastext">I like christmas books which are cozy and include hot chocolate.</p>
-</div>
-
-<footer>
-    <p>All photos copyright of Stina Skog.</p>
-</footer>
+    <footer>
+        <p>Ali Jasim and Stina Skog, Univerity of Borås, VT2022.</p>
+    </footer>
 
 </body>
+
 </html>
