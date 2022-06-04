@@ -13,26 +13,24 @@
 <body onload="main();">
 
     <header>
-        <h1>Pictures</h1>
+        <h1>Scanned pages</h1>
     </header>
     <h2>These are the digitized pages from the book. Click on an image to enlarge it, click the X for
         initial scale.</h2>
 
     <ul class="nav">
         <li><a href="index.html">Home</a></li>
-        <li><a href="sida1.html">Pictures</a></li>
+        <li><a href="sida1.html">Scanned pages</a></li>
         <li><a href="sida2.html">Text</a></li>
-        <li><a href="sida3.html">Metadata</a></li>
+        <li><a href="sida3.html">Metadata and TEI</a></li>
     </ul>
 
     <script>
         var modal;
-       // var close;
 
         function main() {
 
-        modal = document.getElementById("ruta");
-        //  close = document.getElementsByClassName("close")[0];
+            modal = document.getElementById("ruta");
 
             var bilder = [
                 { img: "assets/img_PW/1-hard cover_left side.jpg", alt: "Hard cover left side" },
@@ -73,7 +71,6 @@
                 { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 362.jpg", alt: "Signed copy" },
                 { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 363.jpg", alt: "Signed copy" },
                 { img: "assets/img_PW/Sommardagar i Dar es-Salam_page 364.jpg", alt: "Signed copy" },
-
             ]
 
             bilder.forEach(visatumnagel);
@@ -86,28 +83,20 @@
                     'style = "cursor:pointer" ' +
                     'onclick = "rutan(\'' + value.img + '\');" ' +
                     '> &nbsp;';
-                // console.log (s);
+
                 document.getElementById("tumnaglar").innerHTML += s;
             }
 
         }
 
-
         function closeRutan() {
             modal.style.display = "none";
         }
-    
 
         function rutan(img) {
             modal.style.display = "block";
-          //  close.onclick = "closeRutan";
             document.getElementById("storBild").innerHTML = '<img src="' + img + '" width="600px">';
         }
-
-
-
-
-
     </script>
 
     <div id="tumnaglar">
@@ -115,14 +104,14 @@
 
     <div id="ruta" class="modal">
         <div class="modal-content">
-            
-<button class="close" onclick="closeRutan()">&times;</button>
+
+            <button class="close" onclick="closeRutan()">&times;</button>
             <div id="storBild"></div>
         </div>
     </div>
 
     <footer>
-        <p>Ali Jasim and Stina Skog, Univerity of Borås, VT2022.</p>
+        <p>Ali Jasim and Stina Skog, University of Borås, VT2022.</p>
     </footer>
 
 </body>
