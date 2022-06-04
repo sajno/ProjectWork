@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bagdad, Babyon, Ninive</title>
+            <author>Sven Hedin<note type="date">19 February 1865 – 26 November 1952</note></author>
+            <respStmt>
+               <resp>Author,photographer,explorer and illustrator</resp>
+               <orgName>A Börtzells TR.A.B. STHLM</orgName>
+            </respStmt>
+            <meeting>>Encoded based on the the Text Encoding Initiative Guidelines</meeting>
+            <respStmt>
+               <resp>Transcribed for the Project work, exam #1</resp>
+               <persName>
+                  <roleName>Students</roleName>
+                  <name>Stina Skog</name>
+                  <name>Ali Jasim</name>
+                  <orgName>University of Borås</orgName>
+                  <unit>Library and Information Science, Digital Libraries and Information
+                     Services</unit>
+                  <abbr>Digitising Cultural Heritage Material course<code>32LDK1 B12V2
+                     VT2022</code></abbr>
+                  <date when="2022-05-22">May 22,2022</date>
+                  <lang xml:lang="EN">English</lang>
+                  <lang xml:lang="SV">Svenska</lang>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Signed addition that contains 35 pictures and 5 maps</edition>
+            <respStmt>
+               <resp>Signature</resp>
+               <persName>Sven Hedin</persName>
+               <note type="date">1926</note>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Albert Bonnier Förlag</publisher>
+            <pubPlace>Stockholm</pubPlace>
+            <date when="1917">1917</date>
+            <distributor>Borrowed at Södertälje public library.</distributor>
+            <availability>
+               <licence>Copyright,<date>expire in 2022</date>,by <orgName>The Sven Hedin
+                     Foundation</orgName>, <note>With current legislation the copyright enjoyed by
+                     the Foundation will expire only in 2022.</note>
+                  <idno type="URI">https://svenhedinfoundation.org/copyright/</idno>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <noteGrp>
+                     <desc>Printed book version, Release year<date>1917</date></desc>
+                     <note source="physical">Printed book version borrowed at Södertälje library in
+                        sweden <ref>https://bibliotek.sodertalje.se/</ref>
+                        <lang xml:lang="SV">Svenska</lang>
+                        <idno type="RFID"/>8002036383510</note>
+                     <note>The total pages of the book are<num>806 pages</num></note>
+                  </noteGrp>
+                  <imprint>
+                     <biblScope unit="page">
+                        n="303""304""305""316""317""318""319""320""321""322""323""335""338""339""349""350""351""352""353""354""355""356""357""358""359""360""361""362""363""364">
+                        30 pages</biblScope>
+                     <note>Chapter<num>X.</num>Sommardagar i Dar es-Salam </note>
+                  </imprint>
+                  <extent>Number of transcribed pages are <num type="pages">30</num></extent>
+               </monogr>
+               <relatedItem>
+                  <bibl>
+                     <damage>The book is old, a few pages of the book are in bad condition</damage>
+                  </bibl>
+               </relatedItem>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>errors that appeared in the text have been marked as <gi>sic</gi> and correct
+                  readings are not provided</p>
+            </correction>
+            <hyphenation>
+               <p>The transcription of the Hyphens has been done depending on how they appear</p>
+            </hyphenation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sv">Svenska</language>
+         </langUsage>
+         <textDesc>
+            <channel>Printed book</channel>
+            <constitution type="frags"/>
+            <derivation type="original"/>
+            <domain type="public"/>
+            <factuality type="fact"/>
+            <interaction type="none" active="singular" passive="self"/>
+            <preparedness type="formulaic"/>
+            <purpose type="inform" degree="high"/>
+         </textDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Bagdad</name>
+               <name type="city">Babylon</name>
+               <name type="city">Ninive</name>
+               <placeName type="Country">Iraq</placeName>
+               <placeName type="Region">Middle east</placeName>
+               <date>1916</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="303"/>
+         <div type="prose">
+            <head><hi rend="middle">Sommardagar i Dar es-Salam.</hi></head>
+            <p> Den egentliga grundaren av Abbasidernas välde<lb/> var <persName>Abu Djafar Abdallah
+                  al-Mansur</persName>, som <date>år 754</date> besteg<lb/> kalifernas tron och som
+               efterlämnat ett av den mu-<lb/>hammedanska världens största och berömdaste
+               namn.<lb/>Hans rike var större än det romerska under dess<lb/> glansperiod och
+               sträckte sig från <placeName>Korasan, Kandahar<lb/>och Indus till Aden, Algier och
+                  Mindre Asien*</placeName>. Un-<lb/>der det att <name>Omajjaderna</name> förlagt
+               sitt residens till <placeName>Da<lb/>maskus</placeName>, flyttade
+                  <name>Abbasiderna</name> sitt till <placeName>Babylonien</placeName> ,
+                  där<lb/><persName>Mansur</persName> under sina första regeringsår bodde
+                  i<lb/><placeName>Haschimija vid Kufa</placeName>. Till sitt namns
+               förhärligande<lb/>och sitt minnes hugfästande beslöt han att grundlägga<lb/>en ny
+               huvudstad, och valde en i alla avseenden gynn-<lb/>samt belägen punkt vid
+                  <placeName>Tigris'</placeName> högra strand, där en<lb/>liten ort, känd redan från
+               den babyloniska tiden, hade<lb/>sin plats och kallades Bagdad.<lb/>
+            </p>
+            <p>
+               <date>Försommaren år 762</date> började på den mäktiga kali-<lb/>fens ord den nya
+               världsstaden att växa upp ur öde-<lb/>marken. Praktfulla palatser och mosker,
+               regerings-<lb/>byggnader och fästningsverk uppfördes, kanalerna,<lb/>som förenade de
+               båda floderna, förbättrades och<lb/><note>* Jag följer här Th. Nöldekes
+                  framställning.</note><lb/></p>
+         </div>
+         <pb n="304"/>
+         <div type="prose">
+            <p> broar anlades över dem. Köpmän, hantverkare och<lb/>nybyggare strömmade till,
+               otaliga tegelhus byggdes<lb/>upp, och redan efter fyra år var
+                  <placeName>Bagdad</placeName> en världss<lb/>stad, den största i denna del av
+               Asien och ännu i<lb/>dag en av de mest betydande i Islams största sulta-<lb/>nat.
+                  <date>År 768</date> var stadsmuren färdig. Huvudmassan<lb/>av den nya skapelsen
+               låg på högra stranden. Men<lb/>kalifen lät också bebygga de tomter, som
+               motsvara<lb/>tyngdpunkten i våra dagars Bagdad. Där residerade<lb/> hans son och
+               efterträdare <persName>Mandi</persName>. </p>
+            <p> Från den nya huvudstaden, som han kallade <placeName>Dar<lb/>es-Salam</placeName>,
+                  <addName>»frälsningens stad» eller Mansurije, Man- <lb/>surs stad</addName>,
+               styrde kalifen med järnhård hand sitt<lb/>omätliga rike. I dess inre förvaltning
+               krävde han<lb/>
+               <lb/>ordning och kuvade med grymhet alla försök till<lb/>uppror. För sin egen del var
+               han sparsam, men<lb/>offrade oerhörda rikedomar på <placeName>Bagdad</placeName>. </p>
+            <p> Sitt binamn <addName>al-Mansur, »den segerrike»</addName>, bar han<lb/>med rätta.
+               Ingen av hans efterträdare har över-<lb/>träffat honom i härskaregåvor. Han regerade
+               med<lb/>hänsynslös kraft, och han regerade själv — icke ge-<lb/>nom andra. Sin son
+               gav han en gång det rådet: <q>»Sov<lb/> icke, ty din fader hår icke sovit, sedan han
+                  förvärvade<lb/>kalifatet ; så ofta sömnen gjort hans ögon tunga, har<lb/>hans ande
+                  dock förblivit vaken.»</q> Han var måttlig i<lb/>allt, icke minst i sitt
+               förhållande till kvinnor. Vin<lb/> drack han aldrig och tålde varken sång eller
+               musik<lb/>id hovet, emedan bådadera enligt hans uppfattning<lb/>ledde till
+               liderlighet. Han anses vara en av de största<lb/>vältalare, som funnits på arabiskt
+               språk. Han, som<lb/>rasade likt ett vilddjur mot upprorsmän och miss-<lb/>tänkta
+               personer, kunde vara mjuk och vänlig mot<lb/>
+            </p>
+         </div>
+         <pb n="305"/>
+         <div type="prose">
+            <p> barn och slavar. Till det yttre skildras han som<lb/>högväxt och mager, av ljust
+               bronsbrun ansiktsfärg<lb/>och bärande ett glest skägg. Den årliga vallfarten<lb/>till
+                  <placeName>Mecka</placeName> ledde han gärna själv. Över <unit>sextio</unit>
+               år<lb/>gammal befann han sig på en sådan färd, då han den<lb/>
+               <lb/><date>7 oktober 775</date> dog på en timmes väg från den heliga<lb/>staden, hans
+               släkts hem, i vars närhet han ligger<lb/>begraven. <placeName>Bagdad</placeName> är i
+               sanning det förnämsta min-<lb/> nesmärke han rest över sitt namn. </p>
+            <p> Mansurs sonson, <persName>Harun</persName>, regerade i <unit>23</unit> år
+               och<lb/>förde den Abbasidiska dynastien till höjden av dess<lb/>makt.* Riket
+               blomstrade, dock mera på grund av<lb/> farfaderns visa styrelse än kalifens egen
+               förtjänst.<lb/>Inför eftervärlden är hans namn dock kringstrålat<lb/>av sällsam glans
+               och han bär hedersnamnet <persName>er-Ra-<lb/>schid</persName>, <addName>»den
+                  rättrådige»</addName>. Liksom <persName>Mansur</persName> ledde han<lb/>själv
+               vallfarten till <placeName>Mecka</placeName>. Sedan han <date>år 803</date>
+               låtit<lb/>avliva Barmekidernas familj, för vars makt han hyste<lb/>farhågor och dit
+               också hans forne gunstling <persName>Djafar<lb/></persName> hörde, kände han sig icke
+               längre säker i <placeName>Bagdad</placeName>,<lb/>utan förlade residenset till
+                  <placeName>Rakka vid Eufrat</placeName>. Med<lb/><persName>Karl</persName>
+               <addName>den store</addName> hade han gemensamma intressen i<lb/><placeName>Spanien
+                  och byzantinska riket</placeName> — därav hans beröm-<lb/>melse i
+                  <placeName>Europa</placeName>. Under hans tid blomstrade också<lb/>skönlitteratur
+               och vetenskaplig forskning. På sagors<lb/>och legenders vingar har hans namn blivit
+               buret<lb/>vida omkring, icke minst i <bibl>Tusen och en natt</bibl>. </p>
+            <p>
+               <persName>Harun er-Raschids</persName> son <persName>Mamun</persName>, som först
+               resi-<lb/>derade i <placeName>Merv</placeName>, måste återerövra
+                  <placeName>Babylonien</placeName>. Resi-<lb/>denset förlades sedan ånyo till
+                  <placeName>Bagdad</placeName>.<lb/><note>* C. Brockelmann i Pflugk-Harttungs
+                  Världshistoria.</note> 20. — Bagdad.<lb/>
+            </p>
+         </div>
+         <pb n="316"/>
+         <div type="prose">
+            <p> .... De äro <placeName>främre Asiens</placeName> borna aristo-<lb/>krater, men
+               jämförda med landets herrar, turkarna,<lb/>äro de viljelösa barn. Vart man vänder sig
+               ser man<lb/>judar — alla i orientaliska dräkter och lätt igenkänn-<lb/>liga på sina
+               utpräglade semitiska drag. De i mörk-<lb/>blått klädda arabiska kvinnorna dölja sina
+               ögons glöd<lb/>bakom ogenomträngliga slöjor, och deras systrar, de<lb/>turkiska
+               damerna, gå vanligen klädda i svart, ofta<lb/>i siden, och visa icke heller skymten
+               av sina anlets-<lb/>drag. Bagdads kristna döttrar, syriskor,
+               kaldeiskor,<lb/>armeniskor, bära ljusa, glada, lätta dräkter, liksom<lb/>hopfallna
+               balonghöljen döljande deras former, men<lb/>lämnande deras täcka anleten fria för
+               männens ögon-<lb/>kast. Även judinnornas dräkter påminna om mu-<lb/>hammedanskornas,
+               men slöjan förråder genast bära-<lb/>rinnans ras. Den bildar ett litet svart,
+               guldkantat<lb/>soltak, som framspringer vågrätt från pannan eller<lb/>svagt lutande
+               nedåt och döljer därför icke ansiktet,<lb/>skänker det endast skugga. Passar man på,
+               så hin-<lb/>ner man i alla fall att se ägarinnans drag och upp-<lb/>fånga en blick ur
+               hennes svarta ögon. Vart man ser<lb/>mötes man av penselfrestande bilder och
+               pittoreska<lb/>grupper, som man längtar att föreviga på plåten eller<lb/>i
+               skissboken. Se blott denna arabiska moder, som<lb/>bär sitt minsta barn på högra
+               axeln och håller en<lb/>liten gosse i handen, eller dessa i mörkblåa dok in-
+               <lb/>höljda flickor, som skynda ned till stranden för att<lb/>hämta vatten i sina
+               vackra lerkrukor eller koppar-<lb/>kannor! Även inne i staden kan man få se dem,
+               om<lb/>man stannar en stund vid någon av de små vatten-<lb/>behållarna under
+               skyddande tegelvalv. Där slå de sig<lb/>
+            </p>
+         </div>
+         <pb n="317"/>
+         <div type="picture">
+            <p><desc type="picture">Kvinnor med vattenkrukor. (Schcelvinck foto)</desc></p>
+         </div>
+         <pb n="318"/>
+         <div type="prose">
+            <p> ned vid randen, träffa sina grannar och föra basar-<lb/>ryktena vidare.<lb/>Från
+               huvudgatan leda på flera ställen små tvär-<lb/>gränder eller blott ett par meter
+               breda gångar mellan<lb/>husen ned till <placeName>Tigrisstranden</placeName>, där
+               båtar och guffor<lb/>hava sina tilläggsplatser. Dit begiva sig också sta-<lb/>
+               <lb/>dens sakkas eller vattenbärare, för att brandskatta<lb/>floden på hennes flöde
+               och i en svart, mjuk och dry-<lb/>
+            </p>
+         </div>
+         <div type="picture">
+            <p><desc type="picture">På hem väg från stranden.(Schcelvinck foto)</desc></p>
+         </div>
+         <div type="prose">
+            <p> pande säck av getskinn bära vattnet till hushållen, till<lb/>de törstiga
+               vandringsmännen i basarerna eller till att<lb/>bespruta de torra gatorna och binda
+               deras damm. De<lb/>bära säcken på högra sidan och klämma till dess hals<lb/>med högra
+               handen. I den vänstra hålla de en liten<lb/>träskål, som fylles till randen, utan att
+               en droppe<lb/>spilles, och därpå räckes åt den törstige. Sin största<lb/>färdighet
+               utveckla sakkas dock, då de fylla den tomma<lb/>säcken. Därtill användes en i en
+               dubbel rem fästad<lb/>läderskopa, som sänkes till vattenytan, utan att man-<lb/>
+            </p>
+         </div>
+         <pb n="319"/>
+         <div type="picture">
+            <p><desc type="picture">En trång gränd, som från huvudgatan leder ned till Tigris. Till
+                  vänster en ))belem)) och en ))guffa)). </desc></p>
+         </div>
+
+         <pb n="320"/>
+         <div type="prose">
+            <p> nen behöver böja sig ned, och sedan med en elegant<lb/>rörelse lyftes och tömmes i
+               säckens öppnade myn-<lb/>ning. I en hast sväller säcken, och sakkan vandrar<lb/>på
+               bara fötter och med tunga steg tillbaka till gator-<lb/>nas trängsel.<lb/>
+            </p>
+         </div>
+         <div type="picture">
+            <p><desc type="picture">En strandgränd med trappor</desc></p>
+         </div>
+         <div type="prose">
+            <p> Vid ett par ställen lämna husen eller trädgårdarna<lb/>en smal strandremsa fri. En
+               sådan ligger omedelbart<lb/>nedanför <placeName>konsul Richarz' trädgård</placeName>,
+               från vars terrass<lb/> vi på eftermiddagen brukade betrakta ett brokigt
+               och<lb/>ständigt växlande skådespel. Flit kommo de vatten-<lb/>hämtare, som voro
+               ägare till stora oxhudssäckar,<lb/>
+            </p>
+         </div>
+
+         <pb n="321"/>
+         <div type="prose">
+            <p> burna parvis på åsnor. när fyllde kvinnorna sina<lb/>krus, sköljde sina smutsiga
+               kläder eller tvättade sina<lb/>barn. Då kastades slöjan tillbaka, de vida,
+               kjollik-<lb/>nande byxorna drogos upp över knäet, och de gingo<lb/> barbenta ut ett
+               stycke i det långgrunda vattnet. Sedan<lb/>
+            </p>
+         </div>
+         <div type="picture">
+            <p><desc type="picture">Badande pojkar vid konsul Richari kaj.</desc></p>
+         </div>
+         <div type="prose">
+            <p> slogo de sig ned i grupper för att skvallra och gingo<lb/>slutligen hem till sina
+               hus, behagfullt balanserande<lb/>sina krukor, än på axeln, än på huvudet.<lb/>Gossar,
+               ynglingar och vuxna män begagnade<lb/>samma plats till bad. De äro alla simkunniga,
+               de<lb/>äro ju födda vid den väldiga floden och beroende<lb/>21. — Bagdad.<lb/>
+            </p>
+         </div>
+         <pb n="322"/>
+         <div type="picture">
+            <p><desc type="picture">Badstrand(Schcelvinck foto.)</desc></p>
+         </div>
+
+         <pb n="323"/>
+         <div type="prose">
+            <p> av henne. Viga som kattor klättra de upp på kon-<lb/>sulns kaj, för att åter hoppa
+               i, simma omkring, dyka<lb/>och brottas med strömmen. Under tiden prata de,<lb/>skrika
+               och skratta, det surrar som i en bikupa, det<lb/>stänker och plaskar som efter en
+               skara delfiner. All-<lb/>deles utan fara är icke ett sådant bad. Från
+                  <placeName>Persiska<lb/>viken</placeName> gå hajar tidtals uppför
+                  <placeName>Tigris</placeName> ända till
+                  <placeName>Bagdad</placeName>,<lb/><note>ja, enligt Wilcocks</note>, någon gång
+               till <placeName>Samarra</placeName>. </p>
+         </div>
+         <div type="picture">
+            <p><desc type="picture">Vättenhämtningsplats</desc></p>
+         </div>
+         <div type="prose">
+            <p> Så blandar man sig åter i vimlet på gatorna,<lb/>bland förnämliga köpmän och
+               gårdfarihandlande, som<lb/>utbjuda sötsaker, bröd eller frukter, ämbetsmän
+               i<lb/>halvt europeisk dräkt, svart med röd fez, och syrier,<lb/>som ofta bära en
+               europeisk jacka över sin vita, orien-<lb/>taliska skjorta — högtidliga präster i vita
+               turbaner<lb/>och vida mantlar, pilgrimer, beduiner och icke minst<lb/>anatoliska
+               soldater på väg till fronten i <placeName>Irak</placeName>, nedan- för<placeName>Kut
+                  el-Amara</placeName>, eller i <placeName>Persien</placeName>. En dag kommo<lb/>
+            </p>
+         </div>
+
+         <pb n="335"/>
+         <div type="prose">
+            <p> .... Andra, anspråkslösare handelsmän, som icke äga<lb/>några fasta nästen, hava
+               helt lugnt slagit sig ned vid<lb/>husmurarna och bjuda ut aprikoser, persikor,
+               gurkor,<lb/>
+            </p>
+            <div type="picture">
+               <p><desc type="picture">Kurdisk danserska i Bagdad.</desc></p>
+            </div>
+         </div>
+         <pb n="338"/>
+         <div type="prose">
+            <p> .... brunn, där vatten firas upp med tillhjälp av ett rep<lb/>och en läderhink. Till
+               vänster från ingången leda<lb/>några få trappsteg upp till ett med trasmattor och
+               ett<lb/>par pallar möblerat kyffe med gallerfönster åt en<lb/> liten öppen hall
+               kallad <foreign>»ejvan»</foreign>. För övrigt har huset<lb/>blott en våning, i vars
+               smutsiga, mörka skrubbar<lb/>
+            </p>
+         </div>
+         <div type="picture">
+            <p><desc type="picture">En ))sakka)) i Bagdad</desc></p>
+         </div>
+         <div type="prose">
+            <p> flera familjer bo tillsammans — judarna äro fattiga<lb/>och tränga alltid ihop sig
+               på minsta möjliga fläck.<lb/>ndast kvinnor och barn äro hemma. De förra äro<lb/>lädda
+               i ett enda plagg, ett mellanting mellan klänning<lb/>och nattlinne, de senare hava
+               aldrig varit i beröring<lb/>med vatten, tvål eller kam, och deras ansikten
+               eller<lb/>armar äro nästan alltid ärriga efter den vedervärdiga<lb/>
+            </p>
+         </div>
+         <pb n="339"/>
+         <div type="prose">
+            <p> Bagdadbölden, åsamkad av en giftig fluga, vars bett<lb/>ger anledning till ett
+               årslångt, öppet sår och ett van-<lb/>ställande, outplånligt ärr. Där sitta också ett
+               par<lb/>gummor, rysliga att skåda, med håret pekande åt<lb/>alla håll och fingrarna i
+               håret på jakt efter den ohyra,<lb/>som aldrig lämnar någon ro.<lb/>
+            </p>
+            <p> Icke ens i detta enkla hus fattades en <foreign>»särdab»</foreign>eller det
+               underjordiska rummet, där man tillbringar<lb/>dagarna, sedan den stora hettan kommit.
+               Denna<lb/>plats var dock en vidrig, smutsig håla, ett hem för<lb/>skorpioner och
+               tusenfotingar. Där stod en kruka av<lb/>lergods innehållande vatten, som höll sig
+               kallt; man<lb/>bjöd mig en dryck, men jag tackade och skyndade upp<lb/>i ljuset och
+               till basargatan, där luften dock var bättre<lb/>än i judarnas unkna kyffen.<lb/>
+            </p>
+            <p> Jag kan icke lämna denna i arkitektoniskt hän-<lb/>seende så roliga gata med dess
+               myllrande liv, utan<lb/>att ha gjort en, om än aldrig så flyktig, skiss av
+               dess<lb/>försvinnande perspektiv. Det är icke så lätt som<lb/>man tror. Folket är i
+               ständig rörelse och kan endast<lb/>i hastigt tecknade konturer antydas. Husen stå
+               åt-<lb/>minstone' stilla, men allting annat är i rörelse. Det<lb/>värsta är dock den
+               trängsel jag själv förorsakar, ty<lb/>alla stanna och knuffa sig fram för att se vad
+               jag har<lb/>för mig. Hyggliga krämare i närmaste stånd bjuda<lb/>mig en pall, från
+               vilken jag har fri utsikt över hopens<lb/>huvuden. De bjuda mig också lemonad och
+               cigar-<lb/>retter och göra vad de kunna för att hålla de när-<lb/>gångna på avstånd.
+               Men deras åtgöranden äro hopp-<lb/>lösa, en oavbruten stockning i trafiken uppstår.
+               Till<lb/>slut väckes också distriktspolisens uppmärksamhet. En konstapel bereder sig
+               väg genom trängseln<lb/>
+            </p>
+         </div>
+         <pb n="349"/>
+         <div type="picture">
+            <p><desc type="picture">En ung turkinna i Bagdad</desc></p>
+         </div>
+         <pb n="350"/>
+         <div type="picture">
+            <p><desc type="picture">Habuba, kladiska från Tel-kief.</desc></p>
+         </div>
+         <pb n="351"/>
+         <div type="picture">
+            <p><desc type="picture">Mariem kladeisk flicka från Alkosch, 15 år</desc></p>
+         </div>
+         <pb n="352"/>
+         <div type="picture">
+            <p><desc type="picture">Noam, judinna i Bagdad, 20 år.</desc></p>
+         </div>
+         <pb n="353"/>
+         <div type="picture">
+            <p><desc type="picture">Lea, judinna i Bagdad, 28 år </desc>23.-Bagdad.</p>
+         </div>
+         <pb n="354"/>
+         <div type="prose">
+            <p> haft sin mission i Bagdad ett par hundra år.Av de<lb/>tjugu systrarna voro fyra
+               redan före kriget »soeurs<lb/>de(<gi>charit6</gi>) och bodde i det borgerliga
+               sjukhuset.<lb/>Elva tjänade i de militära lasaretten, och fem ägnade <lb/>sin vård åt
+               klostrets inrättningar: »<gi>ftole</gi>) arabe», »<lb/> »<gi>cole</gi>professionelle»
+               och »orphelinat», där, naturligt-<lb/><lb/>
+            </p>
+         </div>
+         <div type="picture">
+            <p><desc type="picture">Habibe, 70-årig judinna i Bagdad</desc></p>
+         </div>
+         <div type="prose">
+            <p> vis, endast flickor undervisas. 1 yrkesskolan lära de<lb/>att sy, knyppla, brodera
+               och väva. Några av de<lb/>fåtaliga tyska damerna i Bagdad låta göra sina
+               klän-<lb/>ningar hos dem. Det var rörande att se dem i ar-<lb/>bete. Före kriget
+               lärde icke mindre än 35 unga <lb/>arabiska damer att spela piano i systrarnas
+               skola.<lb/>De fader- och moderlösa flickorna äro alla fattiga <lb/>
+            </p>
+         </div>
+         <pb n="355"/>
+         <div type="prose">
+            <p> som kyrkråttor och bo i klostret, där de få allt vad <lb/>de behöva. Nu voro de 51
+               stycken. Inkomsterna<lb/>hade sjunkit till en obetydlighet, och det enda
+               de<lb/>förtjänade något på var sömnaden åt de europeiska<lb/>damerna. Men de växa och
+               blomstra under fostrar-<lb/>
+            </p>
+         </div>
+         <div type="picture">
+            <p><desc type="picture">Nadjiba och Mina, 10-åriga Kaldeiska flickor.</desc></p>
+         </div>
+         <div type="prose">
+            <p> innornas vård, och systrarna göra vad de kunna för<lb/>att gifta bort dem åt
+               hederliga kristna ynglingar,<lb/>som haft tillfälle att lära känna flickorna.
+               Trolovning<lb/>och bröllop äga rum i klostret, men det händer ibland<lb/>att det unga
+               paret kommer tillbaka efter någon tid<lb/> för att be om hjälp.<lb/>De franska
+               systrarna voro oändligt gästfria,<lb/>
+            </p>
+         </div>
+         <pb n="356"/>
+         <div type="prose">
+            <p> .... artiga och älskvärda, och jag tillbringade många tim-<lb/>mar under deras tak.
+               Vill man i orienten rikta sina<lb/>skissböcker med folktyper, erbjuda endast
+               kvinnorna<lb/>nästan oöverstigliga hinder. Men tack vare systrarnas<lb/> vänliga
+               bemedling lyckades det mig att få ett antal<lb/>
+            </p>
+         </div>
+         <div type="picture">
+            <p><desc type="picture">Medelaine, 19-årig kladeiska i Bagdad</desc></p>
+         </div>
+         <div type="prose">
+            <p> ganska karaktäristiska kvinnomodeller. Var och en<lb/>som satt en timme för sitt
+               porträtt, fick en blank<lb/><foreign>»medjidije»</foreign>, och systrarna skaffade
+               därför till klostret<lb/>särskilt fattiga, för vilka fulla tre kronor svenskt<lb/>var
+               en liten förmögenhet.<lb/>Ett par stolar framsattes för mig och modellen,<lb/>
+            </p>
+         </div>
+         <pb n="357"/>
+         <div type="prose">
+            <p> någon av systrarna och flera av deras unga skydds-<lb/>lingar följde seansen, med
+               spänd uppmärksamhet,<lb/>och en av dem fläktade över min hjässa med en
+               sol-<lb/>fjäder av palmblad — det kunde väl behövas i ett<lb/>rum, där
+               dagstemperatuien höll sig omkring - <unit>38 °</unit>.<lb/>Där tecknades en lätt
+               beslöjad ung turkinna, som<lb/>stod lutad och drömmande vid fönstret ; Habuba,
+               en<lb/>
+            </p>
+         </div>
+         <div type="picture">
+            <p><desc type="picture">Manusche, armeniska från Diarbekr, 23 år.</desc></p>
+         </div>
+         <div type="prose">
+            <p>
+               <num type="cardinal">26-årig</num> kaldeiska från <placeName>Tell-keif</placeName>,
+               som smyckat sin<lb/>panna med silvermynt och sin barm med granna<lb/>kedjor, och
+               hennes landsmaninnor, den <num type="cardinal">15-åriga</num>
+               <persName>Ma-<lb/>riem</persName> från <placeName>Alkosch</placeName> och den <num
+                  type="cardinal">36-åriga</num>
+               <persName>Marianne</persName> från<lb/><placeName>Mosul</placeName>. Judinnor i olika
+               åldrar införlivades med gal-<lb/>leriet: den <num type="cardinal">20-åriga</num>
+               brodösen <persName>Noam</persName>, den <num type="cardinal"
+                  >28-åriga</num><lb/><persName>Lea</persName> och den <num type="cardinal"
+                  >70-åriga</num>
+               <persName>Habibe</persName>, alla födda i <placeName>Bagdad</placeName>.<lb/>Bland
+               klostrets egna skyddslingar fingo några sitta<lb/>modell, så de <num type="cardinal"
+                  >10-åriga</num>
+               <persName>Nadjiba</persName> och <persName>Mina</persName> och den<lb/>
+            </p>
+         </div>
+         <pb n="358"/>
+         <div type="picture">
+            <p><desc type="picture">Munteha, 15-årig beduinflicka av mufarridjstam.</desc></p>
+         </div>
+         <pb n="359"/>
+         <div type="picture">
+            <p><desc type="picture">Muntehas syster, 17 år.</desc></p>
+         </div>
+         <pb n="360"/>
+         <div type="picture">
+            <p><desc type="picture">Bahije, arabflicka från Hille, 18 år.</desc></p>
+         </div>
+         <pb n="361"/>
+         <div type="picture">
+            <p><desc type="picture">Mesko, 65-årig kladeiska från Tel-keif</desc></p>
+         </div>
+         <pb n="362"/>
+         <div type="picture">
+            <p><desc type="picture">Hatun Kirijakos, 18 årig Kaldeiska från Sannat. </desc></p>
+         </div>
+         <pb n="363"/>
+         <div type="prose">
+            <p> 19-åriga Madeleine, alla kladeiskor från Bagdad.<lb/>Manusch, 23 år gammal, var
+               däremot armeniska<lb/>från Diarbeker och framställdes malande på en hand-<lb/> Kvarn.
+               Svärast att övertyga om att ingen fara hotade <lb/>voro ändå de muhammedanska
+               arabiskorna. här är<lb/>
+            </p>
+         </div>
+         <div type="picture">
+            <p><desc type="picture">Habuba Jammo från Tell-keif, 30-årig Kaldeiska.</desc></p>
+         </div>
+         <div type="prose">
+            <p> dock en, den 15- åriga Munteha av Mufarridjstam<lb/>från Subeid. Efter många om och
+               men lät hon<lb/>förmå sig att föra sin slöja åt sidan och visa sina av<lb/> ökensolen
+               kopparbrynta drag och sina ramsvarta,<lb/>brinnade ögon. Genom högra näsvingen hade
+               hon<lb/>en silverring, och ringar av samma metal smyckade<lb/> hennes handleder och
+               vrister. Hon var åtföljd av en<lb/>
+            </p>
+         </div>
+
+         <pb n="364"/>
+         <div type="prose">
+            <p> syster och en väninna, den <num type="cardinal">18-åriga</num>
+               <persName>Bahije</persName> från <placeName>Hille</placeName>,<lb/>framställd bärande
+               den karaktäristiska vattenkrukan.<lb/>Annat kvinnfolk i
+               <placeName>Bagdad</placeName>, som jag i bild tagit<lb/>med mig hem, äro den
+               karlavulna <num type="cardinal">65-åriga</num>
+                  kaldeiskan<lb/><persName>Mesko</persName> från <placeName>Tell-keif</placeName>,
+               tjänarinna i ett syriskt hus ;<lb/>
+            </p>
+         </div>
+         <div type="picture">
+            <p><desc type="picture">Judisk cigarrettrullerska i Bagdad.</desc></p>
+         </div>
+         <div type="prose">
+            <p> den <num type="cardinal">18-åriga</num> kaldeiskan <persName>Hatun
+                  Kirijakos</persName> från <placeName>Sannat</placeName><lb/>och den <num
+                  type="cardinal">30-åriga</num>
+               <persName>Habuba Jammo</persName> från <placeName>Tell-keif</placeName> ;<lb/>samt
+               slutligen en judisk flicka, anställd i en liten<lb/>cigarrettfabrik och en kurdisk
+               danserska från Bagdad.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
